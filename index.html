@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Lista de Produtos</title>
+
+</head>
+
+<body>
+    
+    <!-- CABEÇALHO -->
+    <header class="topo">
+
+        <div class="div-topo">
+            <figure>
+                <img class="img-logo" src="./src/img/Gamers!_Logo.svg.png" alt="Logo">
+                <figcaption></figcaption>
+            </figure>
+
+            <nav class="nav-top"> 
+                <ul class="nav-menu">
+                    <li><a id="nav-menu-a-color" href="">Todos</a></li>
+                    <li><a href="">Acessórios</a></li>
+                    <li><a href="">Consoles</a></li>
+                    <li><a href="">Desktop</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header> 
+
+    <main class="inicial">
+
+        <section class="secao-cards">
+
+            <article>
+
+                <ul>
+
+                    <li>
+                        <div class="secao-cards-div-top">
+                            <img src="./src/img/GameBoy.png" alt="Game Boy">
+                        </div>
+                        <div class="secao-cards-div-botton">
+                            <div>
+                                <p>Consoles</p>
+                            </div>
+                            <p class="secao-cards-div-botton-title" >Game Boy Color</p>
+                            <p class="secao-cards-div-botton-description" >
+                                O Game Boy Color (ゲームボーイカラー, Gēmu Bōi Karā) é o sucessor do Game Boy...
+                            </p>
+                            <p class="secao-cards-div-botton-value" >R$ 872.71</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secao-cards-div-top">
+                            <img src="./src/img/ps4 Controle.png" alt="ps4">
+                        </div>
+                        <div class="secao-cards-div-botton">
+                            <div>
+                                <p>Acessórios</p>
+                            </div>
+                            <p class="secao-cards-div-botton-title" >Controle Playstation 4</p>
+                            <p class="secao-cards-div-botton-description" >
+                                O controle DualShock 4 também vem com uma mudança, com a barra de luz...
+                            </p>
+                            <p class="secao-cards-div-botton-value" >R$ 264.90</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secao-cards-div-top">
+                            <img src="./src/img/PS5.png" alt="ps5">
+                        </div>
+                        <div class="secao-cards-div-botton">
+                            <div>
+                                <p>Consoles</p>
+                            </div>
+                            <p class="secao-cards-div-botton-title" >Playstation 5</p>
+                            <p class="secao-cards-div-botton-description" >
+                                O PlayStation 5 (oficialmente abreviado como PS5) é um console de jogos...
+                            </p>
+                            <p class="secao-cards-div-botton-value" >R$ 6361.00</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secao-cards-div-top">
+                            <img src="./src/img/Super Nitendo.png" alt="snes">
+                        </div>
+                        <div class="secao-cards-div-botton">
+                            <div>
+                                <p>Consoles</p>
+                            </div>
+                            <p class="secao-cards-div-botton-title" >Super Nitendo</p>
+                            <p class="secao-cards-div-botton-description" >
+                                O Super Nintendo Entertainment System (Super NES, SNES ou Super Nintendo) é...
+                            </p>
+                            <p class="secao-cards-div-botton-value" >R$ 1500.00</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secao-cards-div-top">
+                            <img src="./src/img/xbox one.png" alt="xbox one">
+                        </div>
+                        <div class="secao-cards-div-botton">
+                            <div>
+                                <p>Consoles</p>
+                            </div>
+                            <p class="secao-cards-div-botton-title" >Xbox One</p>
+                            <p class="secao-cards-div-botton-description" >
+                                O Xbox One é uma central multimídia além de um videogame. Nele podem ser...
+                            </p>
+                            <p class="secao-cards-div-botton-value" >R$ 1797.00</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="secao-cards-div-top">
+                            <img src="./src/img/MegaDrive.png" alt="Mega Drive">
+                        </div>
+                        <div class="secao-cards-div-botton">
+                            <div>
+                                <p>Consoles</p>
+                            </div>
+                            <p class="secao-cards-div-botton-title" >Mega Drive</p>
+                            <p class="secao-cards-div-botton-description" >
+                                O Mega Drive é um icônico console dos anos 1990 que foi relançado pela Sega...
+                            </p>
+                            <p class="secao-cards-div-botton-value" >R$ 1490.00</p>
+                            <button type="button">Adicionar ao carrinho</button>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </article>
+
+        </section>
+
+        <section class="secao-carrinho">
+
+            <div class="car-position">
+                <div class="div-button">
+                    <label for="nome"></label>
+                    <input type="text" placeholder="Digite aqui sua pesquisa" id="pesquisa" name="nome">
+                    <button type="button">Pesquisar</button>
+                </div>
+                <div class="car-name">
+                    <p> Carrinho de Compras</p>
+                </div>
+                <div class="car-itens">
+                    <p id="car-itens-p1">Carrinho vazio</p>
+                    <p id="car-itens-p2">Adicione itens</p>
+                </div>
+                <!-- <div class="car-values"></div> -->
+            </div>
+
+        </section>
+
+    </main>  
+
+</body>
+
+</html>

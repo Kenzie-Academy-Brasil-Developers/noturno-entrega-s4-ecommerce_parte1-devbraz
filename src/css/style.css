@@ -1,0 +1,324 @@
+html {
+    width: 100%;
+    height: 100%;
+    
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+ 
+ /* CABEÇALHO */
+ .topo {
+    width: 100%;
+    height: 7%;
+    background: #F5F5F5;
+ }
+
+ .div-topo {
+    height: 100%;
+    justify-content:space-between;
+    display:flex;
+    background-color: #F5F5F5;
+
+ }
+
+ .div-topo figure {
+    text-align: center;
+    background-color: #F5F5F5;
+    width: 25%;
+    height: 100%;
+ }
+ 
+ .nav-top {
+    background-color: #F5F5F5;
+    width: 30%;
+    height: 100%;
+ }
+ .nav-menu {
+    width: 75%;
+    height: 100%;
+    background-color:#F5F5F5;
+    display:flex;
+    justify-content:space-between;
+ }
+
+ .nav-menu li {
+    vertical-align: middle;
+    height: 100%;
+    background-color: #F5F5F5;
+
+ }
+
+ #nav-menu-a-color {
+    color: #333333;
+    font-weight: bold;
+ }
+
+ .nav-menu li a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 16px;
+    color: #828282;
+    display: flex;
+    vertical-align: middle;
+    margin: 27px 0 27px 0;
+    background-color: #F5F5F5;
+
+ }
+
+ .nav-menu li a:hover {
+    transition-duration: 0.15s;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 5px;
+    
+}
+
+
+
+ .img-logo {
+    width: 212px;
+
+ }
+
+ /* CONTEÚDO */
+ 
+.inicial {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.secao-cards {
+    height: 100%;
+    width: 70%;
+    background-color: #FFFFFF;
+}
+
+.secao-cards ul {
+    padding-left: 10%;
+    background-color: #FFFFFF;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.secao-cards ul li {
+    background-color: blueviolet;
+    margin: 20px 20px 40px 10px;
+    width: 296px;
+    height: 374px;
+
+}
+
+.secao-cards ul li img {
+    width: 170px;
+    height: 131px;
+}
+
+.secao-cards-div-top {
+    text-align: center;
+    background-color: #F5F5F5;
+    height: 40%;
+    width: 100%;
+}
+
+.secao-cards-div-botton{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 15px;
+    background-color: #FFFFFF;
+    height: 60%;
+    width: 100%;
+
+}
+
+.secao-cards-div-botton div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 72px;
+    background: #2E245E;
+}
+
+.secao-cards-div-botton div p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+
+.secao-cards-div-botton button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #828282;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+.secao-cards-div-botton button:hover {
+    transition-duration: 0.15s;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    font-weight: bold;
+    color:#2E245E
+}
+
+.secao-cards-div-botton-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.secao-cards-div-botton-description {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+}
+
+.secao-cards-div-botton-value {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2E245E;
+}
+
+.secao-carrinho {
+    height: 100%;
+    width: 30%;
+    background-color: #FFFFFF;
+}
+
+.car-position {
+    margin-top: 30px;
+    background-color:  #FFFFFF;
+    height: 60%;
+    width: 75%
+
+}
+
+.div-button {
+    display:flex;
+    justify-content:space-between;
+    background-color: #FFFFFF;
+    height: 10%;
+}
+
+.div-button input {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    padding-left: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    width: 72.5%;
+    margin-right: 2.5%;
+    height: 50px; 
+    color: #828282;
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+
+}
+
+.div-button button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    width: 25%;
+    height: 50px;
+    background: #6B54DE;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.div-button button:hover {
+    transition-duration: 0.15s;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.car-name {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    background-color: #6B54DE;
+
+}
+
+.car-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60%;
+    background-color: #F5F5F5;
+}
+
+#car-itens-p1 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    color: #333333;
+}
+
+#car-itens-p2 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 15px;
+    color: #828282;
+}
+
+.car-values {
+    background-color: darkgreen;
+    height: 20%;
+}
